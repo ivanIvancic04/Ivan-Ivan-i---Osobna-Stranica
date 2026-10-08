@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Ivančić — Osobna stranica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HERO SEKCIJA -->
+    <header class="hero">
+        <div class="container">
+            <img src="images/SlikaProfila.jpg" alt="Profilna slika" class="avatar" width="150" height="150">
+            <h1>Ivan Ivančić</h1>
+            <p class="tagline">Student 🎓 • Informacijske i komunikacijske tehnologije 💻 • Ljubitelj kave ☕ • </p>
+            <div class="socials">
+                <a href="mailto:ivancic.ivan05@outlook.com">Email</a>
+                <a href="https://github.com/ivanIvancic04?tab=overview&from=2026-10-01&to=2026-10-07" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- O MENI -->
+    <section class="section">
+        <div class="container">
+            <h2>O meni</h2>
+            <p>
+                Bok! Ja sam Ivan, student elektrotehnike i informacijskih tehnologija iz Osijeka. Volim
+                učiti nove tehnologije i rješavati probleme kodom. Slobodno vrijeme provodim
+                šetajući, vozeći bicikl i odlaskom na pub quiz.
+            </p>
+        </div>
+    </section>
+
+    <!-- ZANIMACIJE -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2>Zanimacije</h2>
+            <ul class="skills">
+                <li>HTML &amp; CSS</li>
+                <li>C</li>
+                <li>Python</li>
+                <li>Git &amp; GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- SLOBODNO VRIJEME -->
+    <section class="section">
+        <div class="container">
+            <h2>Slobodno vrijeme</h2>
+            <div class="hobbies">
+                <div class="card">
+                    <h3>🚵‍♀️ Vrijeme u prirodi</h3>
+                    <p>Volim provoditi vrijeme u prirodi, šetnja i vožnja biciklom</p>
+                </div>
+                <div class="card">
+                    <h3>🥳 Zabava</h3>
+                    <p>Odlazak na koncerte, Pub quiz-ovi, Beer pong</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAKT / FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year">2025</span> Ivan Ivančić • Napravljeno s ❤️ i GitHub Pages</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
